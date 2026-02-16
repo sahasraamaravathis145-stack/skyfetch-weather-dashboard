@@ -84,3 +84,53 @@ h1 {
     width: 100px;
     height: 100px;
 }
+
+.search-section {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap; /* For responsiveness */
+}
+
+/* TODO: Style #city-input */
+/* Suggestions:
+   - padding: 12px 20px
+   - border-radius: 25px
+   - border: 2px solid #ddd
+   - flex: 1 (to take available space)
+   - font-size: 1rem
+   - Focus state with border color change
+*/
+#city-input {
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 2px solid #ddd;
+    flex: 1;
+    font-size: 1rem;
+}
+
+/* TODO: Style #search-btn */
+/* Suggestions:
+   - padding: 12px 30px
+   - background: linear-gradient (match your theme)
+   - color: white
+   - border: none
+   - border-radius: 25px
+   - cursor: pointer
+   - Hover effect with transform or opacity
+   - Transition for smooth effects
+*/
+#search-btn {
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#search-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}   
